@@ -32,26 +32,36 @@ export default function HistoriaPage() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       {/* Header */}
-      <header id="nav" className="fixed top-0 left-0 right-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur-sm">
+      <header id="nav" className="sticky top-0 left-0 right-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur-sm">
         <nav className="container mx-auto flex items-center justify-between px-6 py-6">
           <Link href="#" className="flex items-center cursor-pointer gap-2">
             <Image width={224} height={67} src="/logo2.png" alt="" />
           </Link>
 
-          <Link href="/">
-            <Button
-              variant="outline"
-              className="border-red-600 bg-transparent cursor-pointer text-red-600 hover:bg-red-600 hover:text-white"
+          <div className="flex items-center gap-4">
+            <a
+              href="https://loja.libraslixas.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold text-red-600 hover:text-red-700 transition-colors hidden md:block"
             >
-              <ArrowLeft className="mr-2 h-4 w-4" />
-              Voltar ao Início
-            </Button>
-          </Link>
+              Loja Virtual
+            </a>
+            <Link href="/">
+              <Button
+                variant="outline"
+                className="border-red-600 bg-transparent cursor-pointer text-red-600 hover:bg-red-600 hover:text-white"
+              >
+                <ArrowLeft className="mr-2 h-4 w-4" />
+                Voltar ao Início
+              </Button>
+            </Link>
+          </div>
         </nav>
       </header>
 
       {/* Hero Section */}
-      <section className="relative flex min-h-[60vh] items-center justify-center overflow-hidden pt-20">
+      <section className="relative flex min-h-[60vh] items-center justify-center overflow-hidden pt-8">
         <div className="absolute inset-0 z-0">
           <img
             src="/industrial-workshop-craftsman-sanding-wood-profess.jpg"

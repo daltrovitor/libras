@@ -14,6 +14,7 @@ import {
   Mail,
   Menu,
   X,
+  ShoppingCart,
 } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react"
@@ -24,7 +25,7 @@ export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
 
-   
+
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -53,7 +54,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       {/* Header */}
-      <header id="nav" className="fixed top-0 left-0 right-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur-sm">
+      <header id="nav" className="sticky top-0 left-0 right-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur-sm">
         <nav className="container mx-auto flex items-center justify-between px-6 py-6">
           <div className="flex items-center gap-2">
             <a href="#" className="cursor-pointer" >
@@ -74,12 +75,20 @@ export default function Home() {
             <a href="#contato" className="text-sm hover:text-primary text-gray-600 transition-colors hover:text-gray-900">
               Contato
             </a>
+            <a
+              href="https://loja.libraslixas.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold text-red-600 hover:text-red-700 transition-colors flex items-center gap-1"
+            >
+              Loja Virtual <ShoppingCart className="h-4 w-4" />
+            </a>
           </div>
 
           <Button
             variant="outline"
             className="hidden border-red-600 cursor-pointer bg-transparent text-red-600 hover:bg-red-600 hover:text-white md:flex"
-            onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}
+            onClick={() => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}
           >
             Solicitar Orçamento
           </Button>
@@ -128,8 +137,8 @@ export default function Home() {
                 <Button
                   variant="outline"
                   className="w-full border-red-600 bg-transparent cursor-pointer text-red-600 hover:bg-red-600 hover:text-white"
-                 onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}
-                  
+                  onClick={() => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}
+
                 >
                   Solicitar Orçamento
                 </Button>
@@ -140,7 +149,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative flex min-h-screen items-center justify-center overflow-hidden pt-32 pb-32 md:pt-40 md:pb-40">
+      <section className="relative flex min-h-[80vh] items-center justify-center overflow-hidden pt-16 pb-32 md:pt-20 md:pb-40">
         <div className="absolute inset-0 z-0">
           <img
             src="/industrial-sandpaper-abrasive-texture-close-up-met.jpg"
@@ -174,7 +183,7 @@ export default function Home() {
               size="lg"
               variant="outline"
               className="border-gray-300 bg-transparent text-gray-900 hover:bg- cursor-pointer hover:text- hover:scale-110"
-               onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}
+              onClick={() => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}
             >
               Fale com Especialista
             </Button>
@@ -324,6 +333,65 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Store Promotion Section */}
+      <section className="bg-red-600 py-16 text-white overflow-hidden relative">
+        <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-96 h-96 bg-red-500 rounded-full blur-3xl opacity-50" />
+        <div className="container mx-auto px-6 relative z-10">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+            <div className="md:w-1/2">
+              <h2 className="text-4xl md:text-5xl font-serif font-light mb-6 tracking-tight">
+                Toda nossa linha de abrasivos <br />
+                <span className="font-bold">agora a um clique de você</span>
+              </h2>
+              <p className="text-xl text-red-100 mb-8 leading-relaxed">
+                Acesse nossa nova loja virtual e compre com praticidade, segurança e a qualidade que você já conhece. Entrega rápida para todo o Brasil.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <a
+                  href="https://loja.libraslixas.com.br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white text-red-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-gray-100 transition-all flex items-center gap-2 group"
+                >
+                  Ir para a Loja <ShoppingCart className="h-5 w-5 group-hover:scale-110 transition-transform" />
+                </a>
+              </div>
+            </div>
+            <div className="md:w-1/2 relative">
+              <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 shadow-2xl skew-y-3 md:skew-y-6">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
+                    <Package className="text-red-600 h-6 w-6" />
+                  </div>
+                  <div>
+                    <div className="font-bold text-lg">Catálogo Completo</div>
+                    <div className="text-red-100 text-sm">Milhares de produtos online</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
+                    <Truck className="text-red-600 h-6 w-6" />
+                  </div>
+                  <div>
+                    <div className="font-bold text-lg">Entrega Expressa</div>
+                    <div className="text-red-100 text-sm">Receba no seu endereço</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
+                    <Star className="text-red-600 h-6 w-6" />
+                  </div>
+                  <div>
+                    <div className="font-bold text-lg">Compra Segura</div>
+                    <div className="text-red-100 text-sm">Tecnologia de ponta em pagamentos</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -493,7 +561,7 @@ export default function Home() {
           <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-600 text-balance">
             Fale com nossos especialistas e descubra a solução abrasiva ideal para seu projeto
           </p>
-          <Button size="lg" className="bg-red-600 text-white hover:scale-110 cursor-pointer" onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}>
+          <Button size="lg" className="bg-red-600 text-white hover:scale-110 cursor-pointer" onClick={() => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}>
             Solicitar Orçamento
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
@@ -528,7 +596,7 @@ export default function Home() {
                 >
                   <Instagram className="h-5 w-5" />
                 </a>
-                
+
                 <a
                   href="mailto:adm@libraslixas.com.br"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 text-gray-600 transition-colors hover:border-red-600 hover:bg-red-600 hover:text-white"
@@ -561,6 +629,16 @@ export default function Home() {
                     Catálogo Completo
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://loja.libraslixas.com.br"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-600 font-semibold hover:text-red-700"
+                  >
+                    Loja Online
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -583,7 +661,7 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-red-600"  onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}>
+                  <a href="#" className="hover:text-red-600" onClick={() => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}>
                     Orçamento
                   </a>
                 </li>

@@ -4,6 +4,7 @@ import { GeistMono } from 'geist/font/mono'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import { SITE } from '../lib/seo'
+import { PromotionBanner } from '@/components/promotion-banner'
 
 export const metadataBase = new URL(SITE.url)
 
@@ -65,6 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: localBusinessSchema }} />
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
+        <PromotionBanner />
         <main className='selection:bg-primary selection:text-white'>
           {children}
         </main>

@@ -10,55 +10,55 @@ import { ArrowLeft, CheckCircle2, Ruler, Layers } from 'lucide-react'
 
 const products = {
   "lixas-em-folha": {
-  "title": "Lixas em Folha",
-  "description": "Lixas em folha de alta qualidade para acabamento manual profissional",
-  "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTsPGxcz4Oa0PO0Q35-gxFNRuRyeqiLJ5umKeJbf2-DcNjE4cSePeEYc9KBITX",
-  "fullDescription": "Nossas lixas em folha são fabricadas com óxido de alumínio de alta pureza, garantindo durabilidade excepcional e acabamento uniforme. Ideais para trabalhos manuais em madeira, metal, massa corrida e preparação de superfícies para pintura.",
-  "features": [
-    "Óxido de alumínio de alta pureza",
-    "Base de papel resistente",
-    "Aderência superior do grão",
-    "Não empasta facilmente",
-    "Acabamento uniforme",
-    "Longa durabilidade"
-  ],
-  "applications": [
-    "Acabamento de móveis e marcenaria",
-    "Preparação de superfícies para pintura",
-    "Lixamento de massa corrida",
-    "Acabamento de metais",
-    "Restauração de madeira"
-  ],
-  "specifications": [
-    { "label": "Grãos disponíveis", "value": "40, 60, 80, 100, 120, 150, 180, 220, 320, 400, 600" },
-    { "label": "Dimensões", "value": "230mm x 280mm" },
-    { "label": "Material abrasivo", "value": "Óxido de alumínio" },
-    { "label": "Costado", "value": "Papel látex flexível de alta qualidade, à prova d’água" },
-    { "label": "Embalagem", "value": "Pacotes com 50 folhas" }
-  ],
-  "varieties": [
-    {
-      "name": "Lixa d’Água",
-      "description": "Indicada para lixamento úmido de superfícies metálicas, automotivas e pintura. Resistente à água e ao desgaste prolongado.",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPUQU4RgvVUEQimbXd2_fR_Pl75IA2VCQRMLjovQFbkpCa3Xhb4TEHnlpGzVRE"
-    },
-    {
-      "name": "Lixa para Ferro",
-      "description": "Desenvolvida para lixamento de metais ferrosos e não ferrosos. Proporciona alto poder de corte e longa durabilidade.",
-      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRTZCDfTNnVnBS6Mw8IhJ6hK48Ni-IuVWl2AEY-2C2IyjrjfoID2kbDBzl91bqx"
-    },
-    {
-      "name": "Lixa a Seco",
-      "description": "Ideal para lixamento manual de madeira e massa corrida. Excelente desempenho em superfícies secas.",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTsPGxcz4Oa0PO0Q35-gxFNRuRyeqiLJ5umKeJbf2-DcNjE4cSePeEYc9KBITX"
-    },
-    {
-      "name": "Lixa para Massa e Madeira",
-      "description": "Perfeita para nivelamento e acabamento fino em superfícies de massa corrida, MDF e madeira em geral.",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrC_TK9ZACM9GjagclZDvOdBPv3auX9KN-T4JTbYArjnHY4l2_HKfAq5yKwhnB"
-    }
-  ]
-},
+    "title": "Lixas em Folha",
+    "description": "Lixas em folha de alta qualidade para acabamento manual profissional",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTsPGxcz4Oa0PO0Q35-gxFNRuRyeqiLJ5umKeJbf2-DcNjE4cSePeEYc9KBITX",
+    "fullDescription": "Nossas lixas em folha são fabricadas com óxido de alumínio de alta pureza, garantindo durabilidade excepcional e acabamento uniforme. Ideais para trabalhos manuais em madeira, metal, massa corrida e preparação de superfícies para pintura.",
+    "features": [
+      "Óxido de alumínio de alta pureza",
+      "Base de papel resistente",
+      "Aderência superior do grão",
+      "Não empasta facilmente",
+      "Acabamento uniforme",
+      "Longa durabilidade"
+    ],
+    "applications": [
+      "Acabamento de móveis e marcenaria",
+      "Preparação de superfícies para pintura",
+      "Lixamento de massa corrida",
+      "Acabamento de metais",
+      "Restauração de madeira"
+    ],
+    "specifications": [
+      { "label": "Grãos disponíveis", "value": "40, 60, 80, 100, 120, 150, 180, 220, 320, 400, 600" },
+      { "label": "Dimensões", "value": "230mm x 280mm" },
+      { "label": "Material abrasivo", "value": "Óxido de alumínio" },
+      { "label": "Costado", "value": "Papel látex flexível de alta qualidade, à prova d’água" },
+      { "label": "Embalagem", "value": "Pacotes com 50 folhas" }
+    ],
+    "varieties": [
+      {
+        "name": "Lixa d’Água",
+        "description": "Indicada para lixamento úmido de superfícies metálicas, automotivas e pintura. Resistente à água e ao desgaste prolongado.",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSPUQU4RgvVUEQimbXd2_fR_Pl75IA2VCQRMLjovQFbkpCa3Xhb4TEHnlpGzVRE"
+      },
+      {
+        "name": "Lixa para Ferro",
+        "description": "Desenvolvida para lixamento de metais ferrosos e não ferrosos. Proporciona alto poder de corte e longa durabilidade.",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRTZCDfTNnVnBS6Mw8IhJ6hK48Ni-IuVWl2AEY-2C2IyjrjfoID2kbDBzl91bqx"
+      },
+      {
+        "name": "Lixa a Seco",
+        "description": "Ideal para lixamento manual de madeira e massa corrida. Excelente desempenho em superfícies secas.",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTsPGxcz4Oa0PO0Q35-gxFNRuRyeqiLJ5umKeJbf2-DcNjE4cSePeEYc9KBITX"
+      },
+      {
+        "name": "Lixa para Massa e Madeira",
+        "description": "Perfeita para nivelamento e acabamento fino em superfícies de massa corrida, MDF e madeira em geral.",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrC_TK9ZACM9GjagclZDvOdBPv3auX9KN-T4JTbYArjnHY4l2_HKfAq5yKwhnB"
+      }
+    ]
+  },
 
   "discos-abrasivos": {
     title: "Discos Abrasivos",
@@ -396,81 +396,81 @@ const products = {
       },
     ],
   },
-"maquinas-pneumaticas": {
-  "title": "Máquinas Pneumáticas",
-  "description": "Ferramentas de ar comprimido para trabalhos profissionais e industriais",
-  "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFt4efInMQoTprR4hR_em0HCL-N71nZIetRKklRXbOJF2DwRCHTdgeuKCKLWIS",
-  "fullDescription": "Máquinas pneumáticas de alta performance alimentadas por ar comprimido. Ideais para aplicações industriais, oficinas e canteiros de obra. Oferecem potência, durabilidade e eficiência energética superior.",
-  "features": [
-    "Alimentação por ar comprimido",
-    "Alta potência e torque",
-    "Baixo peso e compactas",
-    "Durabilidade excepcional",
-    "Manutenção simples",
-    "Custo operacional reduzido",
-    "Segurança em ambientes explosivos"
-  ],
-  "applications": [
-    "Parafusadeiras e chaves de impacto",
-    "Lixadeiras e politrizes",
-    "Furadeiras pneumáticas",
-    "Grampeadores e pregadores",
-    "Esmerilhadoras",
-    "Canteiros de obra",
-    "Indústria automotiva",
-    "Manutenção industrial"
-  ],
-  "specifications": [
-    { "label": "Pressão de operação", "value": "6 a 8 bar" },
-    { "label": "Consumo de ar", "value": "Variável conforme modelo" },
-    { "label": "Potência", "value": "0,5 a 3 HP" },
-    { "label": "Velocidade", "value": "Até 3000 RPM" },
-    { "label": "Peso", "value": "1,5 a 4 kg" },
-    { "label": "Conexão", "value": "Rosca 1/4\" ou 3/8\"" }
-  ],
-  "varieties": [
-    {
-      "name": "Pistola de Pintura Pneumática",
-      "description": "Indicada para aplicação de tintas em superfícies metálicas, automotivas e industriais, garantindo acabamento uniforme.",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRfaPqSUnAf4SC29oRKBlkr6R_-oPSJ0WMuPp9cHxWFh0RSF85dO858_PgOkYQv"
-    },
-    {
-      "name": "Chave de Impacto Pneumática",
-      "description": "Ferramenta de alto torque para apertar e desapertar parafusos em trabalhos pesados. Ideal para indústria automotiva e manutenção.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWtAOKMy8pHLjztkIc1qZuliYs8IUQT5hzg-RQvRxANekjtVhcyM7ty6yQBmh1"
-    },
-    {
-      "name": "Calibrador Pneumático",
-      "description": "Equipamento para medição e ajuste preciso da pressão de pneus e sistemas pneumáticos.",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkMlCZlgLwP4rbFsr0PjUwTzsRfImFnxHRfF3uuN9h1OCfMmLpaWpQ1ibFCn9I"
-    },
-    {
-      "name": "Tanque de Pressão para Pintura",
-      "description": "Reservatório utilizado em conjunto com pistolas de pintura para maior autonomia e eficiência em aplicações contínuas.",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFt4efInMQoTprR4hR_em0HCL-N71nZIetRKklRXbOJF2DwRCHTdgeuKCKLWIS"
-    },
-    {
-      "name": "Parafusadeira Pneumática",
-      "description": "Ferramenta leve e eficiente para montagem e desmontagem de estruturas metálicas e industriais.",
-      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtayYqFyVbfcw6ZV6pjfMow2-0Bf7mGH6FuixXAuQJtuQAeBvweAzGNRjrcP6H"
-    },
-    {
-      "name": "Grampeador Pneumático",
-      "description": "Ideal para fixação rápida em carpintaria, estofaria e construção civil.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRptzMyWZVppag6KZC8iGUVPLp5gbaHvUT_RP3O1AtlmfmrUkI2JTv8ZVxfref-"
-    },
-    {
-      "name": "Pregador Pneumático",
-      "description": "Utilizado para disparo de pregos em madeira e montagem rápida de estruturas.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa56HwKa2YQovHgCj5rBklSXs0QyKs--aQsitnW-_rki6FXINnWIq_vwIfp2nD"
-    },
-    {
-      "name": "Filtro Regulador Lubrificador (FRL)",
-      "description": "Conjunto essencial para tratamento do ar comprimido, garantindo pressão adequada, filtragem e lubrificação das ferramentas.",
-      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSEFVx_E_SLREyrI6Wce0s7N7RvJxzgF-64Bm0xZqbgL3LnHhT_jKwOrit6jv-F"
-    }
-  ]
-}
+  "maquinas-pneumaticas": {
+    "title": "Máquinas Pneumáticas",
+    "description": "Ferramentas de ar comprimido para trabalhos profissionais e industriais",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFt4efInMQoTprR4hR_em0HCL-N71nZIetRKklRXbOJF2DwRCHTdgeuKCKLWIS",
+    "fullDescription": "Máquinas pneumáticas de alta performance alimentadas por ar comprimido. Ideais para aplicações industriais, oficinas e canteiros de obra. Oferecem potência, durabilidade e eficiência energética superior.",
+    "features": [
+      "Alimentação por ar comprimido",
+      "Alta potência e torque",
+      "Baixo peso e compactas",
+      "Durabilidade excepcional",
+      "Manutenção simples",
+      "Custo operacional reduzido",
+      "Segurança em ambientes explosivos"
+    ],
+    "applications": [
+      "Parafusadeiras e chaves de impacto",
+      "Lixadeiras e politrizes",
+      "Furadeiras pneumáticas",
+      "Grampeadores e pregadores",
+      "Esmerilhadoras",
+      "Canteiros de obra",
+      "Indústria automotiva",
+      "Manutenção industrial"
+    ],
+    "specifications": [
+      { "label": "Pressão de operação", "value": "6 a 8 bar" },
+      { "label": "Consumo de ar", "value": "Variável conforme modelo" },
+      { "label": "Potência", "value": "0,5 a 3 HP" },
+      { "label": "Velocidade", "value": "Até 3000 RPM" },
+      { "label": "Peso", "value": "1,5 a 4 kg" },
+      { "label": "Conexão", "value": "Rosca 1/4\" ou 3/8\"" }
+    ],
+    "varieties": [
+      {
+        "name": "Pistola de Pintura Pneumática",
+        "description": "Indicada para aplicação de tintas em superfícies metálicas, automotivas e industriais, garantindo acabamento uniforme.",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRfaPqSUnAf4SC29oRKBlkr6R_-oPSJ0WMuPp9cHxWFh0RSF85dO858_PgOkYQv"
+      },
+      {
+        "name": "Chave de Impacto Pneumática",
+        "description": "Ferramenta de alto torque para apertar e desapertar parafusos em trabalhos pesados. Ideal para indústria automotiva e manutenção.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWtAOKMy8pHLjztkIc1qZuliYs8IUQT5hzg-RQvRxANekjtVhcyM7ty6yQBmh1"
+      },
+      {
+        "name": "Calibrador Pneumático",
+        "description": "Equipamento para medição e ajuste preciso da pressão de pneus e sistemas pneumáticos.",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkMlCZlgLwP4rbFsr0PjUwTzsRfImFnxHRfF3uuN9h1OCfMmLpaWpQ1ibFCn9I"
+      },
+      {
+        "name": "Tanque de Pressão para Pintura",
+        "description": "Reservatório utilizado em conjunto com pistolas de pintura para maior autonomia e eficiência em aplicações contínuas.",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFt4efInMQoTprR4hR_em0HCL-N71nZIetRKklRXbOJF2DwRCHTdgeuKCKLWIS"
+      },
+      {
+        "name": "Parafusadeira Pneumática",
+        "description": "Ferramenta leve e eficiente para montagem e desmontagem de estruturas metálicas e industriais.",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtayYqFyVbfcw6ZV6pjfMow2-0Bf7mGH6FuixXAuQJtuQAeBvweAzGNRjrcP6H"
+      },
+      {
+        "name": "Grampeador Pneumático",
+        "description": "Ideal para fixação rápida em carpintaria, estofaria e construção civil.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRptzMyWZVppag6KZC8iGUVPLp5gbaHvUT_RP3O1AtlmfmrUkI2JTv8ZVxfref-"
+      },
+      {
+        "name": "Pregador Pneumático",
+        "description": "Utilizado para disparo de pregos em madeira e montagem rápida de estruturas.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa56HwKa2YQovHgCj5rBklSXs0QyKs--aQsitnW-_rki6FXINnWIq_vwIfp2nD"
+      },
+      {
+        "name": "Filtro Regulador Lubrificador (FRL)",
+        "description": "Conjunto essencial para tratamento do ar comprimido, garantindo pressão adequada, filtragem e lubrificação das ferramentas.",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSEFVx_E_SLREyrI6Wce0s7N7RvJxzgF-64Bm0xZqbgL3LnHhT_jKwOrit6jv-F"
+      }
+    ]
+  }
 
 
 }
@@ -563,24 +563,34 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       {/* Header */}
-      <header id="nav" className="fixed top-0 left-0 right-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur-sm">
+      <header id="nav" className="sticky top-0 left-0 right-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur-sm">
         <nav className="container mx-auto flex items-center justify-between px-6 py-6">
           <Link href="#" className="flex cursor-pointer items-center gap-2">
             <Image width={224} height={67} src="/logo2.png" alt="" />
           </Link>
 
-          <Button
-            variant="outline"
-            className="border-red-600 bg-transparent text-red-600 cursor-pointer hover:bg-red-600 hover:text-white"
-             onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}
-          >
-            Solicitar Orçamento
-          </Button>
+          <div className="flex items-center gap-4">
+            <a
+              href="https://loja.libraslixas.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold text-red-600 hover:text-red-700 transition-colors hidden md:block"
+            >
+              Loja Virtual
+            </a>
+            <Button
+              variant="outline"
+              className="border-red-600 bg-transparent text-red-600 cursor-pointer hover:bg-red-600 hover:text-white"
+              onClick={() => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}
+            >
+              Solicitar Orçamento
+            </Button>
+          </div>
         </nav>
       </header>
 
       {/* Back Button */}
-      <div className="container mx-auto px-6 pt-32">
+      <div className="container mx-auto px-6 pt-16">
         <Link href="/#produtos">
           <Button variant="ghost" className="mb-8 text-gray-600 cursor-pointer">
             <ArrowLeft className="mr-2 h-4 w-4" />
@@ -603,7 +613,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
 
             <div className="flex flex-col gap-4 sm:flex-row">
               <Button size="lg" className="bg-red-600 text-white hover:scale-110 cursor-pointer"
-               onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}>
+                onClick={() => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}>
                 Solicitar Orçamento
               </Button>
             </div>
@@ -703,7 +713,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           <p className="mx-auto mb-8 max-w-2xl text-lg text-gray-600">
             Fale com nossos especialistas e receba um orçamento personalizado
           </p>
-          <Button size="lg" className="bg-red-600 text-white hover:scale-110 cursor-pointer "  onClick={ () => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}>
+          <Button size="lg" className="bg-red-600 text-white hover:scale-110 cursor-pointer " onClick={() => window.open('https://wa.me/5562982714849?text=Ol%C3%A1%20tudo%20bom%3F%20Gostaria%20de%20fazer%20um%20or%C3%A7amento ', '_blank')}>
             Falar com Especialista
           </Button>
         </div>
