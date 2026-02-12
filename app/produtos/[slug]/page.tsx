@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       description: product.description || SITE.description,
       url,
       images: [{ url: product.image, alt: product.title }],
-      type: 'product',
+      type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
